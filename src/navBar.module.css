@@ -1,0 +1,37 @@
+.Bar {
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(170deg, blueviolet, white);
+    display: flex;
+    padding-top: 20px;
+    box-shadow: 2px 2px 15px gray;
+    justify-content: space-between;
+}
+
+.Cart {
+    width: 100px;
+    position: relative;
+}
+
+.Count {
+    font-size: 15px;
+    position: absolute;
+    left: 35px;
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+.Title {
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+}
+
+.CartImg {
+    width: 50px;
+    margin-right: 50px;
+}
